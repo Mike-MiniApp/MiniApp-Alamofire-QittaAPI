@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20F2C269AE5BCE1853063448 /* Pods_MiniApp_Alamofire_QittaAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38BC8CE19FF5266737B9447 /* Pods_MiniApp_Alamofire_QittaAPI.framework */; };
+		958720BF27F689540058A2B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958720BE27F689540058A2B1 /* AppDelegate.swift */; };
+		958720C127F689540058A2B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958720C027F689540058A2B1 /* SceneDelegate.swift */; };
+		958720C327F689540058A2B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958720C227F689540058A2B1 /* ViewController.swift */; };
+		958720C627F689540058A2B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958720C427F689540058A2B1 /* Main.storyboard */; };
+		958720C827F689540058A2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958720C727F689540058A2B1 /* Assets.xcassets */; };
+		958720CB27F689540058A2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958720C927F689540058A2B1 /* LaunchScreen.storyboard */; };
+		958720D327F68CB30058A2B1 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958720D227F68CB30058A2B1 /* Article.swift */; };
+		958720D527F68D4A0058A2B1 /* RequestArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958720D427F68D4A0058A2B1 /* RequestArticle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		827392E0AB4109A121E226B6 /* Pods-MiniApp-Alamofire-QittaAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp-Alamofire-QittaAPI.release.xcconfig"; path = "Target Support Files/Pods-MiniApp-Alamofire-QittaAPI/Pods-MiniApp-Alamofire-QittaAPI.release.xcconfig"; sourceTree = "<group>"; };
+		958720BB27F689540058A2B1 /* MiniApp-Alamofire-QittaAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniApp-Alamofire-QittaAPI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958720BE27F689540058A2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		958720C027F689540058A2B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		958720C227F689540058A2B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		958720C527F689540058A2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		958720C727F689540058A2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		958720CA27F689540058A2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		958720CC27F689540058A2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958720D227F68CB30058A2B1 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		958720D427F68D4A0058A2B1 /* RequestArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestArticle.swift; sourceTree = "<group>"; };
+		B38BC8CE19FF5266737B9447 /* Pods_MiniApp_Alamofire_QittaAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniApp_Alamofire_QittaAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5DD49D90CA9CCF0511EBC4 /* Pods-MiniApp-Alamofire-QittaAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniApp-Alamofire-QittaAPI.debug.xcconfig"; path = "Target Support Files/Pods-MiniApp-Alamofire-QittaAPI/Pods-MiniApp-Alamofire-QittaAPI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		958720B827F689540058A2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F2C269AE5BCE1853063448 /* Pods_MiniApp_Alamofire_QittaAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126A6BB0FA0FFA583A5B73B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD5DD49D90CA9CCF0511EBC4 /* Pods-MiniApp-Alamofire-QittaAPI.debug.xcconfig */,
+				827392E0AB4109A121E226B6 /* Pods-MiniApp-Alamofire-QittaAPI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		958720B227F689540058A2B1 = {
+			isa = PBXGroup;
+			children = (
+				958720BD27F689540058A2B1 /* MiniApp-Alamofire-QittaAPI */,
+				958720BC27F689540058A2B1 /* Products */,
+				126A6BB0FA0FFA583A5B73B8 /* Pods */,
+				E90CE4A206036C4C9B8D174D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		958720BC27F689540058A2B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958720BB27F689540058A2B1 /* MiniApp-Alamofire-QittaAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		958720BD27F689540058A2B1 /* MiniApp-Alamofire-QittaAPI */ = {
+			isa = PBXGroup;
+			children = (
+				958720BE27F689540058A2B1 /* AppDelegate.swift */,
+				958720C027F689540058A2B1 /* SceneDelegate.swift */,
+				958720C227F689540058A2B1 /* ViewController.swift */,
+				958720C427F689540058A2B1 /* Main.storyboard */,
+				958720C727F689540058A2B1 /* Assets.xcassets */,
+				958720C927F689540058A2B1 /* LaunchScreen.storyboard */,
+				958720D227F68CB30058A2B1 /* Article.swift */,
+				958720CC27F689540058A2B1 /* Info.plist */,
+				958720D427F68D4A0058A2B1 /* RequestArticle.swift */,
+			);
+			path = "MiniApp-Alamofire-QittaAPI";
+			sourceTree = "<group>";
+		};
+		E90CE4A206036C4C9B8D174D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B38BC8CE19FF5266737B9447 /* Pods_MiniApp_Alamofire_QittaAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		958720BA27F689540058A2B1 /* MiniApp-Alamofire-QittaAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958720CF27F689540058A2B1 /* Build configuration list for PBXNativeTarget "MiniApp-Alamofire-QittaAPI" */;
+			buildPhases = (
+				CCA3498EA47963C32EDE8B27 /* [CP] Check Pods Manifest.lock */,
+				958720B727F689540058A2B1 /* Sources */,
+				958720B827F689540058A2B1 /* Frameworks */,
+				958720B927F689540058A2B1 /* Resources */,
+				70427BC947943DE9A50863C4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MiniApp-Alamofire-QittaAPI";
+			productName = "MiniApp-Alamofire-QittaAPI";
+			productReference = 958720BB27F689540058A2B1 /* MiniApp-Alamofire-QittaAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		958720B327F689540058A2B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					958720BA27F689540058A2B1 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 958720B627F689540058A2B1 /* Build configuration list for PBXProject "MiniApp-Alamofire-QittaAPI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 958720B227F689540058A2B1;
+			productRefGroup = 958720BC27F689540058A2B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				958720BA27F689540058A2B1 /* MiniApp-Alamofire-QittaAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		958720B927F689540058A2B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958720CB27F689540058A2B1 /* LaunchScreen.storyboard in Resources */,
+				958720C827F689540058A2B1 /* Assets.xcassets in Resources */,
+				958720C627F689540058A2B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70427BC947943DE9A50863C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp-Alamofire-QittaAPI/Pods-MiniApp-Alamofire-QittaAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiniApp-Alamofire-QittaAPI/Pods-MiniApp-Alamofire-QittaAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiniApp-Alamofire-QittaAPI/Pods-MiniApp-Alamofire-QittaAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA3498EA47963C32EDE8B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniApp-Alamofire-QittaAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		958720B727F689540058A2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958720D527F68D4A0058A2B1 /* RequestArticle.swift in Sources */,
+				958720D327F68CB30058A2B1 /* Article.swift in Sources */,
+				958720C327F689540058A2B1 /* ViewController.swift in Sources */,
+				958720BF27F689540058A2B1 /* AppDelegate.swift in Sources */,
+				958720C127F689540058A2B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		958720C427F689540058A2B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958720C527F689540058A2B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		958720C927F689540058A2B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958720CA27F689540058A2B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		958720CD27F689540058A2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		958720CE27F689540058A2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		958720D027F689540058A2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5DD49D90CA9CCF0511EBC4 /* Pods-MiniApp-Alamofire-QittaAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MiniApp-Alamofire-QittaAPI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.MiniApp-Alamofire-QittaAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		958720D127F689540058A2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827392E0AB4109A121E226B6 /* Pods-MiniApp-Alamofire-QittaAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X9S244452;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MiniApp-Alamofire-QittaAPI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkondo.MiniApp-Alamofire-QittaAPI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		958720B627F689540058A2B1 /* Build configuration list for PBXProject "MiniApp-Alamofire-QittaAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958720CD27F689540058A2B1 /* Debug */,
+				958720CE27F689540058A2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958720CF27F689540058A2B1 /* Build configuration list for PBXNativeTarget "MiniApp-Alamofire-QittaAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958720D027F689540058A2B1 /* Debug */,
+				958720D127F689540058A2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 958720B327F689540058A2B1 /* Project object */;
+}
